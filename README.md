@@ -61,17 +61,64 @@ Recorded both responses in a comparison table.
 
 Evaluated each pair according to three metrics — quality, accuracy, and depth.
 
-Compiled results into a summarized analysis table.
+Compiled results into a summarized analysis.
 
-+------------------------+---------------------------+-----------------------------------------------+--------------------------------------------------------------------------+-----------------------------------------------------------------------+-------------+-------------+-------------+
-| Scenario               | Naïve Prompt              | ChatGPT Response (Naïve)                      | Basic Prompt                                                             | ChatGPT Response (Basic)                                             | Quality     | Accuracy    | Depth       |
-+------------------------+---------------------------+-----------------------------------------------+--------------------------------------------------------------------------+-----------------------------------------------------------------------+-------------+-------------+-------------+
-| Creative Story         | Tell me a story.          | Simple, generic story about a boy and his dog.| Write a 300-word fantasy story about a brave girl fighting a dragon.     | Detailed fantasy story with strong structure and emotional depth.     | Basic > N   | Basic > N   | Basic > N   |
-| Factual Q&A            | Tell me about Mars.       | Short, general description of the planet.     | List five key facts about Mars’ atmosphere and surface conditions.       | Accurate, fact-rich answer with organized points.                     | Basic > N   | Basic > N   | Basic > N   |
-| Concept Summarization  | Summarize photosynthesis. | Over-simplified explanation.                  | Summarize the process of photosynthesis in 3–4 lines for students.       | Clear, concise, and scientifically accurate summary.                  | Basic > N   | Basic > N   | Basic > N   |
-| Advice/Recommendation  | Give me some advice.      | Generic motivational advice.                  | Give 3 productivity tips for college students managing time.             | Specific and actionable suggestions.                                  | Basic > N   | Basic > N   | Basic > N   |
-| Technical Explanation  | Explain AI.               | Broad, general explanation of AI.             | Explain artificial intelligence in simple terms for a 12-year-old.       | Clear, engaging explanation with relatable examples.                  | Basic > N   | Basic > N   | Basic > N   |
-+------------------------+---------------------------+-----------------------------------------------+--------------------------------------------------------------------------+-----------------------------------------------------------------------+-------------+-------------+-------------+
+Results (Text Format):
+
+1. Creative Story
+
+Naïve Prompt: “Tell me a story.”
+Response: Produced a short, generic story about a boy and his dog with minimal plot or detail.
+
+Basic Prompt: “Write a 300-word fantasy story about a brave girl fighting a dragon.”
+Response: Generated a vivid and structured fantasy story with emotional depth, clear progression, and strong descriptive language.
+→ Result: The basic prompt led to a much richer and more coherent narrative.
+
+2. Factual Question Answering
+
+Naïve Prompt: “Tell me about Mars.”
+Response: Provided general surface-level facts with limited depth.
+
+Basic Prompt: “List five key facts about Mars’ atmosphere and surface conditions.”
+Response: Delivered organized, accurate, and specific information about the planet’s composition and environment.
+→ Result: The basic prompt gave more precise and factual content.
+
+3. Concept Summarization
+
+Naïve Prompt: “Summarize photosynthesis.”
+Response: Produced an oversimplified explanation lacking structure.
+
+Basic Prompt: “Summarize the process of photosynthesis in 3–4 lines for students.”
+Response: Clear and concise explanation describing sunlight absorption, chlorophyll function, and glucose formation.
+→ Result: The basic prompt yielded a more accurate and educational summary.
+
+4. Advice or Recommendation
+
+Naïve Prompt: “Give me some advice.”
+Response: Generic motivational advice with no specific context.
+
+Basic Prompt: “Give 3 productivity tips for college students managing their time effectively.”
+Response: Offered practical, actionable, and student-focused tips.
+→ Result: The basic prompt was more useful and targeted to the user’s context.
+
+5. Technical Explanation
+
+Naïve Prompt: “Explain AI.”
+Response: High-level definition with limited clarity and no examples.
+
+Basic Prompt: “Explain artificial intelligence in simple terms for a 12-year-old, with real-life examples.”
+Response: Provided an easy-to-understand explanation with relatable examples like virtual assistants and self-driving cars.
+→ Result: The basic prompt gave a clearer and more engaging response suitable for the target audience.
+
+Overall Observation:
+
+Across all test scenarios, basic prompts consistently produced responses that were:
+
+Higher in quality (better language, structure, and focus)
+
+More accurate (factually precise and contextually correct)
+
+Deeper in content (richer explanation and creativity)
 
 
 
