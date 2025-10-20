@@ -63,15 +63,14 @@ Evaluated each pair according to three metrics — quality, accuracy, and depth.
 
 Compiled results into a summarized analysis table.
 
-+------------------------+---------------------------+-----------------------------------------------+--------------------------------------------------------------------------+-----------------------------------------------------------------------+-------------+-------------+-------------+
-| Scenario               | Naïve Prompt              | ChatGPT Response (Naïve)                      | Basic Prompt                                                             | ChatGPT Response (Basic)                                             | Quality     | Accuracy    | Depth       |
-+------------------------+---------------------------+-----------------------------------------------+--------------------------------------------------------------------------+-----------------------------------------------------------------------+-------------+-------------+-------------+
-| Creative Story         | Tell me a story.          | Simple, generic story about a boy and his dog.| Write a 300-word fantasy story about a brave girl fighting a dragon.     | Detailed fantasy story with strong structure and emotional depth.     | Basic > N   | Basic > N   | Basic > N   |
-| Factual Q&A            | Tell me about Mars.       | Short, general description of the planet.     | List five key facts about Mars’ atmosphere and surface conditions.       | Accurate, fact-rich answer with organized points.                     | Basic > N   | Basic > N   | Basic > N   |
-| Concept Summarization  | Summarize photosynthesis. | Over-simplified explanation.                  | Summarize the process of photosynthesis in 3–4 lines for students.       | Clear, concise, and scientifically accurate summary.                  | Basic > N   | Basic > N   | Basic > N   |
-| Advice/Recommendation  | Give me some advice.      | Generic motivational advice.                  | Give 3 productivity tips for college students managing time.             | Specific and actionable suggestions.                                  | Basic > N   | Basic > N   | Basic > N   |
-| Technical Explanation  | Explain AI.               | Broad, general explanation of AI.             | Explain artificial intelligence in simple terms for a 12-year-old.       | Clear, engaging explanation with relatable examples.                  | Basic > N   | Basic > N   | Basic > N   |
-+------------------------+---------------------------+-----------------------------------------------+--------------------------------------------------------------------------+-----------------------------------------------------------------------+-------------+-------------+-------------+
+
+| Prompt Type        | Example Prompt                                                                                         |
+|--------------------|--------------------------------------------------------------------------------------------------------|
+| Simple             | "A person walking in a park."                                                                          |
+| Descriptive        | "A person in a red jacket walking in a sunny park with birds flying and a dog running beside them."   |
+| Time/Motion-Based  | "Time-lapse of sunset over the ocean with camera zooming out slowly."                                  |
+| Stylized/Artistic  | "Animated scene of a futuristic city at night with neon lights and flying cars."                       |
+| Cinematic          | "A car chase in a neon-lit city with reflections on wet roads and camera panning."                    |
 
 
 Across all five scenarios, basic prompts produced significantly better responses in clarity, relevance, and depth.
